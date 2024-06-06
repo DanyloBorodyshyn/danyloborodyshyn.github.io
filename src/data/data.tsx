@@ -13,15 +13,15 @@ import { SiFrontendmentor } from 'react-icons/si';
 import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
 
 export default {
-  name: 'Danny Wen',
+  name: 'Danylo Borodyshyn',
   description:
-    "Based in Taiwan, I'm a front-end developer passionate about building accessible web apps that users love.",
+    "Based in Ukraine, I'm a front-end developer passionate about building accessible web apps that users love.",
   skills: [
     {
       skill: 'HTML',
     },
     {
-      skill: 'CSS',
+      skill: 'SCSS/CSS',
     },
     {
       skill: 'JavaScript',
@@ -33,19 +33,16 @@ export default {
       skill: 'Vue.js',
     },
     {
-      skill: 'React.js',
+      skill: 'Angular',
     },
     {
-      skill: 'Node.js',
+      skill: 'ReactNative',
     },
     {
-      skill: 'Express.js',
+      skill: 'GraphQL',
     },
     {
-      skill: 'Salesforce Lightning Web Component',
-    },
-    {
-      skill: 'Microsoft Dynamic 365',
+      skill: 'Nuxt3',
     },
   ],
   projects: [
@@ -138,23 +135,18 @@ export default {
   links: [
     {
       site: 'Github',
-      link: 'https://github.com/Furxx2000',
+      link: 'https://github.com/DanyloBorodyshyn',
       icon: <FaGithub className='md:w-6 md:h-6' size={20} />,
     },
     {
       site: 'Frontend mentor',
-      link: 'https://www.frontendmentor.io/profile/Furxx2000',
+      link: 'https://www.frontendmentor.io/profile/DanyloBorodyshyn',
       icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
     },
     {
       site: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/%E5%85%89%E5%BB%B7-%E6%96%87-aa0ba1176/',
+      link: 'https://www.linkedin.com/in/danylo-borodyshyn-093088251/',
       icon: <FaLinkedin className='md:w-6 md:h-6' size={20} />,
-    },
-    {
-      site: 'Codepen',
-      link: 'https://codepen.io/furxx2000',
-      icon: <FaCodepen className='md:w-6 md:h-6' size={20} />,
     },
   ],
 };
