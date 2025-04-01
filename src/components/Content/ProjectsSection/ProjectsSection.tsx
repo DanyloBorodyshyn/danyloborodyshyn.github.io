@@ -20,7 +20,7 @@ export default function ProjectsSection() {
       <Divider classes='md:hidden' />
       <ProjectsHeader />
       <div className='prjs grid gap-y-10 md:grid-cols-2 md:gap-x-[30px] xl:gap-y-[70px]'>
-        {prjs.map(({ projectName, image, skills, projectLink, codeLink }) => (
+        {prjs.map(({ projectName, image, skills, projectLink, codeLink, linkIOS,linkAndroid }) => (
           <Project
             key={projectName}
             projectName={projectName}
@@ -28,6 +28,8 @@ export default function ProjectsSection() {
             skills={skills}
             projectLink={projectLink}
             codeLink={codeLink}
+            linkIOS={linkIOS}
+            linkAndroid={linkAndroid}
           />
         ))}
       </div>
