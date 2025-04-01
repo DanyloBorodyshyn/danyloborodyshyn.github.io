@@ -1,152 +1,163 @@
-import portfolioImage from '../assets/portfolio-website.jpg?url';
-import pomodoroImage from '../assets/Pomodoro-app.jpg?url';
-import markdownImage from '../assets/In-browser-markdown-editor.jpg?url';
-import restCountriesAPIImage from '../assets/REST-Countries-API.jpg?url';
-import calculatorImage from '../assets/Calculator-App.jpg?url';
-import drumMachineImage from '../assets/Drum-machine.jpg?url';
-import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
-import quoteAppImage from '../assets/Random-quote-app.jpg?url';
-import loginPageImage from '../assets/Login-page.jpg?url';
-import airbnbCloneImage from '../assets/airbnb-clone.jpg';
-import airbnbClone2023 from '../assets/airbnb-clone-2023.jpg';
-import { SiFrontendmentor } from 'react-icons/si';
-import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
+import qtmLanding from "../assets/qtm-landing.png";
+import qtmMarketplace from "../assets/qtm_restaurant.png";
+import custom_admin from "../assets/custom_admin.png";
+import qtm_tablet from "../assets/qtm_tablet.png";
+import getstyle from "../assets/getstyle.png";
+import GettstyleStrapi from "../assets/GettstyleStrapi.png";
+import derabiton from "../assets/derabiton.png";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaLinkedin, FaCodepen, FaGithub } from "react-icons/fa";
 
 export default {
-  name: 'Danylo Borodyshyn',
+  name: "Danylo Borodyshyn",
   description:
-    "Based in Ukraine, I'm a front-end developer passionate about building accessible web apps that users love.",
+    "I am a Middle Frontend Developer specializing in Vue.js and Nuxt.js, with over 2 years of commercial experience. My passion for frontend development stems from my ability to quickly grasp new concepts and adapt to evolving technologies.",
   skills: [
     {
-      skill: 'HTML',
+      skill: "HTML",
     },
     {
-      skill: 'SCSS/CSS',
+      skill: "SCSS/CSS",
     },
     {
-      skill: 'JavaScript',
+      skill: "JavaScript",
     },
     {
-      skill: 'TypeScript',
+      skill: "TypeScript",
     },
     {
-      skill: 'Vue.js',
+      skill: "Vue.js",
     },
     {
-      skill: 'Angular',
+      skill: "Angular",
     },
     {
-      skill: 'ReactNative',
+      skill: "ReactNative",
     },
     {
-      skill: 'GraphQL',
+      skill: "GraphQL",
     },
     {
-      skill: 'Nuxt3',
+      skill: "Bootstrap/Tailwind CSS",
+    },
+    {
+      skill: "Nuxt3",
+    },
+    {
+      skill: "REST API",
+    },
+    {
+      skill: "Pinia",
+    },
+    {
+      skill: "shad-cn",
+    },
+    {
+      skill: "Vuetify",
     },
   ],
   projects: [
     {
-      projectName: 'Airbnb-clone-2023',
+      projectName: "derabiton",
       skills: [
-        'tailwind',
-        'typescript',
-        'react',
-        'next.js',
-        'prisma',
-        'mongodb',
+        "html",
+        "Tailwind",
+        "Vue.js",
+        "Nuxt3",
+        "Typescript",
       ],
-      image: airbnbClone2023,
-      projectLink: 'https://travel-app-2023.vercel.app/',
-      codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
+      image: derabiton,
+      projectLink: "https://derabiton.com/products"
     },
     {
-      projectName: 'Single page developer portfolio',
-      skills: ['tailwind', 'typescript', 'react'],
-      image: portfolioImage,
-      projectLink:
-        'https://furxx2000.github.io/Single-page-developer-portfolio/',
-      codeLink: 'https://github.com/Furxx2000/Single-page-developer-portfolio',
+      projectName: "Gettstyle",
+      skills: [
+        "html",
+        "Tailwind",
+        "Vue.js",
+        "Nuxt3",
+        "Typescript",
+        "Graphql",
+        "Pinia",
+        "Strapi",
+        "Node.js",
+      ],
+      image: getstyle,
+      projectLink: "https://app.gettstyle.com/"
     },
     {
-      projectName: 'Pomodoro app',
-      skills: ['tailwind', 'typescript', 'react'],
-      image: pomodoroImage,
-      projectLink: 'https://furxx2000.github.io/Pomodoro-app/',
-      codeLink: 'https://github.com/Furxx2000/Pomodoro-app',
+      projectName: "Gettstyle Admin (strapi)",
+      skills: [
+        "Strapi",
+        "Node.js",
+      ],
+      image: GettstyleStrapi,
+      projectLink: "https://app.gettstyle.com/"
     },
     {
-      projectName: 'In browser markdown editor',
-      skills: ['scss', 'typescript', 'react'],
-      image: markdownImage,
-      projectLink: 'https://furxx2000.github.io/In-browser-markdown-editor/',
-      codeLink: 'https://github.com/Furxx2000/In-browser-markdown-editor',
+      projectName: "Quick Touch Menu Marketplace",
+      skills: [
+        "Angular",
+        "typescript",
+        "RxJs",
+        "html",
+        "scss",
+      ],
+      image: qtmLanding,
+      projectLink: "https://quicktouch.menu/"
     },
     {
-      projectName: 'REST Countries API',
-      skills: ['css', 'typescript', 'vue'],
-      image: restCountriesAPIImage,
-      projectLink: 'https://furxx2000.github.io/Rest-Country-API-App/',
-      codeLink: 'https://github.com/Furxx2000/Rest-Country-API-App',
+      projectName: "Quick Touch Menu Restaurant",
+      skills: [
+        "Angular",
+        "typescript",
+        "RxJs",
+        "html",
+        "scss",
+      ],
+      image: qtmMarketplace,
+      projectLink: "https://olivje-restaurant.quicktouch.menu/catalog/longlist",
+      codeLink: ''
     },
     {
-      projectName: 'Calculator App',
-      skills: ['scss', 'typescript', 'vue'],
-      image: calculatorImage,
-      projectLink: 'https://furxx2000.github.io/Calculator-App/',
-      codeLink: 'https://github.com/Furxx2000/Calculator-App',
+      projectName: "Quick Touch Menu tablet admin app",
+      skills: [
+        "html",
+        "css-in-js",
+        "React Native",
+        "Redux",
+      ],
+      image: custom_admin,
+      codeLink: ''
     },
     {
-      projectName: 'Drum machine',
-      skills: ['styled components', 'typescript', 'react'],
-      image: drumMachineImage,
-      projectLink: 'https://furxx2000.github.io/Drum-machine/',
-      codeLink: 'https://github.com/Furxx2000/Drum-machine',
-    },
-    {
-      projectName: 'Space tourism website',
-      skills: ['html', 'css', 'typescript'],
-      image: spaceWebsiteImage,
-      projectLink: 'https://furxx2000.github.io/Space-Tourism-Website/',
-      codeLink: 'https://github.com/Furxx2000/Space-Tourism-Website',
-    },
-    {
-      projectName: 'Random quote app',
-      skills: ['css', 'react', 'API'],
-      image: quoteAppImage,
-      projectLink: 'https://furxx2000.github.io/Random-quote-machine-FCC/',
-      codeLink: 'https://github.com/Furxx2000/Random-quote-machine-FCC',
-    },
-    {
-      projectName: 'Login page',
-      skills: ['scss', 'vue', 'vue router'],
-      image: loginPageImage,
-      projectLink: 'https://furxx2000.github.io/Login-page/',
-      codeLink: 'https://github.com/Furxx2000/Login-page',
-    },
-    {
-      projectName: 'Airbnb clone',
-      skills: ['html', 'scss', 'javascript'],
-      image: airbnbCloneImage,
-      projectLink: 'https://furxx2000.github.io/Airbnb-clone/',
-      codeLink: 'https://github.com/Furxx2000/Airbnb-clone',
+      projectName: "Quick Touch Menu mob / tablet app",
+      skills: [
+        "html",
+        "css-in-js",
+        "React Native",
+        "Redux",
+      ],
+      image: qtm_tablet,
+      linkIOS: 'https://apps.apple.com/ru/app/quick-touch-waiter/id6449952843',
+      linkAndroid: 'https://play.google.com/store/apps/details?id=com.qtmwaiter&hl=ru&gl=US'
     },
   ],
   links: [
     {
-      site: 'Github',
-      link: 'https://github.com/DanyloBorodyshyn',
-      icon: <FaGithub className='md:w-6 md:h-6' size={20} />,
+      site: "Github",
+      link: "https://github.com/DanyloBorodyshyn",
+      icon: <FaGithub className="md:w-6 md:h-6" size={20} />,
     },
+    // {
+    //   site: 'Frontend mentor',
+    //   link: 'https://www.frontendmentor.io/profile/DanyloBorodyshyn',
+    //   icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
+    // },
     {
-      site: 'Frontend mentor',
-      link: 'https://www.frontendmentor.io/profile/DanyloBorodyshyn',
-      icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
-    },
-    {
-      site: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/danylo-borodyshyn-093088251/',
-      icon: <FaLinkedin className='md:w-6 md:h-6' size={20} />,
+      site: "LinkedIn",
+      link: "https://www.linkedin.com/in/danylo-borodyshyn-093088251/",
+      icon: <FaLinkedin className="md:w-6 md:h-6" size={20} />,
     },
   ],
 };

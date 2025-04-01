@@ -9,8 +9,10 @@ interface Props {
   projectName: string;
   skills: string[];
   image: string;
-  projectLink: string;
-  codeLink: string;
+  projectLink?: string;
+  codeLink?: string;
+  linkIOS?: string;
+  linkAndroid?: string;
 }
 
 export default function Project({
@@ -19,6 +21,8 @@ export default function Project({
   skills,
   projectLink,
   codeLink,
+  linkIOS,
+  linkAndroid,
 }: Props) {
   return (
     <ProjectCard>
@@ -27,6 +31,8 @@ export default function Project({
         prjName={projectName}
         prjLink={projectLink}
         codeLink={codeLink}
+        linkIOS={linkIOS}
+        linkAndroid={linkAndroid}
       />
       <div>
         <ProjectName prjName={projectName} />

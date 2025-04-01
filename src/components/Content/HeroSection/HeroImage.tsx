@@ -1,6 +1,6 @@
-import mobileImage from '../../../assets/mobile_image.jpg?url';
-import tabletImage from '../../../assets/tablet_image.jpg?url';
-import desktopImage from '../../../assets/desktop_image.jpg?url';
+import mobileImage from '../../../assets/me.jpg?url';
+import tabletImage from '../../../assets/me.jpg?url';
+import desktopImage from '../../../assets/me.jpg?url';
 
 export default function HeroImage() {
   return (
@@ -8,9 +8,9 @@ export default function HeroImage() {
       <source srcSet={desktopImage} media='(min-width: 1280px)' />
       <source srcSet={tabletImage} media='(min-width: 768px)' />
       <img
-        className='h-[383px] md:h-[600px] xl:h-[720px]'
+        className='h-[383px] md:h-[600px] xl:h-[720px] object-none object-top md:object-center'
         src={mobileImage}
-        alt='Danny Wen'
+        alt='Me'
       />
     </picture>
   );
